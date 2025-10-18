@@ -9,3 +9,5 @@ wandb/
 .windsurf-server
 .idea/this_studio.iml
 .lightning_studio/**/*.log
+.netrc
+.triton/

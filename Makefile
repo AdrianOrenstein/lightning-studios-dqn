@@ -3,8 +3,5 @@ PIP = pip3
 
 .DEFAULT_GOAL = run
 
-build:
-	./scripts/build_docker.sh $(filter-out $@,$(MAKECMDGOALS)); \
-
 run:
-	./scripts/run.sh $(filter-out $@, $(MAKECMDGOALS))
+	./scripts/run_dev_container.sh
