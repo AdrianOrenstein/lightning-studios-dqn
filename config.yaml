@@ -1,0 +1,12 @@
+common:
+  REGISTRY: "docker.io"
+  USERNAME: "adrianorenstein"
+  IMAGE_NAME: "fabric_dqn"
+  TAG: "latest"
+  PLATFORMS: "linux/amd64"
+  
+images:
+  fabric_dqn:
+    IMAGE_NAME: "fabric_dqn"
+    TAG: "latest"
+    PLATFORMS: "linux/amd64"

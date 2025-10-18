@@ -1,0 +1,11 @@
+.DS_Store
+*.sif
+*.pyc
+*.tar
+wandb/
+**__pycache__**
+.cursor-server
+.vscode-server
+.windsurf-server
+.idea/this_studio.iml
+.lightning_studio/**/*.log
